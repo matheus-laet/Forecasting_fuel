@@ -8,7 +8,7 @@ como objetivo busco mostrar a previsao do preço do combustivel(gasolina, etanol
 ## Gráficos da EDA
 analise BoxPlot dos valores de venda.
 Podemos identificar poucos valores no estado do Amapa, provavelmente impossibilitando o treinamento adequado do nosso modelo.
-![image](https://user-images.githubusercontent.com/78280594/120231975-f03de280-c228-11eb-92fd-4d23ceb6b9dc.png)
+![image](https://user-images.githubusercontent.com/78280594/120231975-f03de280-c228-11eb-92fd-4d23ceb6b9dc.png = 100x)
 
 Durante a analise lembrei da Greve dos caminhoneiros que ocorreu em 2018, paralizando o serviços como fornecimento de combustíveis, distribuição de alimentos e insumos médicos, a greve teve como uma das principais exigencias a redução nos preços do Diesel e demais combustiveis durou da cerca de 10 dias, iniciando dia 21/05 e terminando dia 30/05.
 
