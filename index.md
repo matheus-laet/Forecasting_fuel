@@ -6,7 +6,7 @@ como objetivo busco mostrar a previsao do preço do combustivel(gasolina, etanol
 
 
 ## Gráficos da EDA
-<img src=/imagems/newplot.png />
+<img height="700" src=/imagems/newplot.png />
 
 ## Correlações identificadas
 
