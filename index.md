@@ -39,10 +39,16 @@ Gostaria de deixa claro que fiz os teste de correlação, todos no estado de Sao
 ## Modelos
 ### _- Arima_
 O ARIMA (AutoRegressive Integrated Moving Average), utiliza dados passados para prever o futuro, usando dois principais recursos: a autocorrelação e médias móveis.
+
+
 ### _- XGBoost_
-O XGBoost é um algoritimo da familia dos Gradient boosting que faz 
+O XGBoost é um algoritimo baseado em Gradient boosting que constrói o modelo em etapas, e os generaliza.
+
+
 ### _- Prophet_
 O Prophet é um pacote usado pelo Facebook, que implementa algoritimos de previsões de series temporais, feito para detectar automaticamente os padroes sazonais de uma serie.
+
+
 ### _- CatBoost_
 
 
