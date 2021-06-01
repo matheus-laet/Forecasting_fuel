@@ -19,6 +19,10 @@ Durante a analise lembrei da Greve dos caminhoneiros que ocorreu em 2018, parali
 ![image](https://user-images.githubusercontent.com/78280594/120232916-f46aff80-c22a-11eb-8268-22898ad3305f.png)
 
 ## Correlações identificadas
+Gostaria de deixa claro que fiz os teste de correlação, todos no estado de Sao Paulo.
+
+![image](https://user-images.githubusercontent.com/78280594/120374063-7290da00-c2ef-11eb-9f62-cb2be6bf9bea.png)
+
 
 
 ## Modelos: prophet e LSTM
