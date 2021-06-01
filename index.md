@@ -2,7 +2,10 @@
 Com a variação excessiva dos preços dos combustíveis, e a surpresa sempre que ia ao posto, decidi fazer um previsor de preço de combustível, para poder me programar para o próximo abastecimento e não tomar um susto e prejuízo na carteira.
 
 Sumario
-- ![link](https://github.com/matheus-laet/Forecasting_fuel/##Correlações indentificadas)
+- [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#objetivo-do-projeto)
+- [EDA](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#gr%C3%A1ficos-da-eda)
+- [Colelações](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#correla%C3%A7%C3%B5es-identificadas)
+- [Modelos](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#modelos-prophet-e-lstm)
 
 ### previsor de preço de combustivel
 
