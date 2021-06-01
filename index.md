@@ -1,17 +1,20 @@
 # Forecast_fuel
 Com a variação excessiva dos preços dos combustíveis, e a surpresa sempre que ia ao posto, decidi fazer um previsor de preço de combustível, para poder me programar para o próximo abastecimento e não tomar um susto e prejuízo na carteira.
 
-Sumario
+#Sumario
 - [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#objetivo-do-projeto)
+- [Features](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#Features)
 - [EDA](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#gr%C3%A1ficos-da-eda)
 - [Colelações](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#correla%C3%A7%C3%B5es-identificadas)
-- [Modelos](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#modelos-prophet-e-lstm)
+- [Modelos](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#modelos)
 
-### previsor de preço de combustivel
 
 ## Objetivo do Projeto
 como objetivo busco mostrar a previsao do preço do combustivel(gasolina, etanol e disel) medio por estado.
 
+## Features
+
+Neste projeto retiramos os dados históricos das bases de dados dos sites,  [Gov- Agência Nacional de Petróleo](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos), que foi retirado dos preços de compra e venda dos combustíveis e o [IndexMundi](https://www.indexmundi.com/),  onde foi retirado outras variaveis, como preço da bolsa, preço do petróleo bruto, etanol futuro e preço bruto do diesel. 
 
 ## Gráficos da EDA
 analise BoxPlot dos valores de venda.
@@ -33,7 +36,14 @@ Gostaria de deixa claro que fiz os teste de correlação, todos no estado de Sao
 
 
 
-## Modelos: prophet e LSTM
+## Modelos
+### _- Arima_
+O ARIMA (AutoRegressive Integrated Moving Average), utiliza dados passados para prever o futuro, usando dois principais recursos: a autocorrelação e médias móveis.
+### _- XGBoost_
+O XGBoost é um algoritimo da familia dos Gradient boosting que faz 
+### _- Prophet_
+O Prophet é um pacote usado pelo Facebook, que implementa algoritimos de previsões de series temporais, feito para detectar automaticamente os padroes sazonais de uma serie.
+### _- CatBoost_
 
 
 ## Resultados Comparativos
