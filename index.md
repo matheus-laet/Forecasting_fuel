@@ -23,7 +23,7 @@ Durante a analise lembrei da Greve dos caminhoneiros que ocorreu em 2018, parali
 ## Correlações identificadas
 Gostaria de deixa claro que fiz os teste de correlação, todos no estado de Sao Paulo.
 
-![image](\imagens\correlacao_gasolinax.png)
+![image](https://drive.google.com/file/d/1cA3dxeOF8lQqKZbggZg33i8wTHKgXtET/view?usp=sharing)
 
 
 
