@@ -30,11 +30,29 @@ Durante a analise lembrei da Greve dos caminhoneiros que ocorreu em 2018, parali
 ![image](https://user-images.githubusercontent.com/78280594/120232916-f46aff80-c22a-11eb-8268-22898ad3305f.png)
 
 ## Correlações identificadas
-Gostaria de falar que fiz os teste de correlação, todos no estado de Sao Paulo.
+:warning: Todos os testes de correlação foram feitos no estado de São Paulo. :warning:
 
-![image](https://user-images.githubusercontent.com/78280594/120376095-d74d3400-c2f1-11eb-8a76-e9eefbbb90b1.png)
-![image](https://user-images.githubusercontent.com/78280594/120415292-ae4c9380-c331-11eb-80c5-ccdd0303c492.png)
-![image](https://user-images.githubusercontent.com/78280594/120415232-937a1f00-c331-11eb-9d5a-a8caf36e2808.png)
+A correlação é, a dependência que as variáveis têm entre si, quando as dependências não são obvias utilizamos os métodos de detecção como os índices de [Pearson](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_de_Pearson), [Spearman](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_de_postos_de_Spearman) e [Kendall](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_tau_de_Kendall#:~:text=Em%20estat%C3%ADstica%2C%20o%20coeficiente%20de,postos%20entre%20duas%20quantidades%20medidas.).
+
+correlação das variaveis da Gasolina | correlação das variaveis do Etanol | correlação das variaveis do Diesel
+:-------------------------:|:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/78280594/120418821-a09a0c80-c337-11eb-8df3-07b8e9f9a027.png)  |  ![image](https://user-images.githubusercontent.com/78280594/120418855-ae4f9200-c337-11eb-9212-69fae0965661.png) |  ![image](https://user-images.githubusercontent.com/78280594/120418917-c6271600-c337-11eb-824f-a8750e9b5e88.png)
+
+
+
+
+Para diminuir os riscos de Overfiting e ser mais logico a forma de trabalhar com os valores, fiz um deslocamento de data das variáveis, fazendo o teste com deslocamento de 1 e 2 meses para testar a correlação.
+
+
+<img src="https://raw.githubusercontent.com/matheus-laet/Forecasting_fuel/gh-pages/imagens/output_LpsubZ.gif" alt="Gif" width="400"/>
+
+
+
+Correlação lag de 1 mês    |  Correlação lag de 2 mês          
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/78280594/120415331-be647300-c331-11eb-9c84-2fc83544e721.png)  |  ![image](https://user-images.githubusercontent.com/78280594/120415377-d0deac80-c331-11eb-9808-3f9b15745e10.png)
+
+
 
 ## Modelos
 ### _- Arima_
@@ -56,18 +74,4 @@ O Prophet é um pacote usado pelo Facebook, que implementa algoritimos de previs
 
 
 ## Board de visualizações finais
-![GitHub Logo](Forecasting_fuel/imagens/Venda.jpg)
-
-correlacao_dieselx.png
-![image](https://user-images.githubusercontent.com/78280594/120415232-937a1f00-c331-11eb-9d5a-a8caf36e2808.png)
-
-correlacao_etanolx.png
-![image](https://user-images.githubusercontent.com/78280594/120415292-ae4c9380-c331-11eb-80c5-ccdd0303c492.png)
-
-correlacao_gasolina_t-1x.png
-![image](https://user-images.githubusercontent.com/78280594/120415331-be647300-c331-11eb-9c84-2fc83544e721.png)
-
-correlacao_gasolina_t-2x.png
-![image](https://user-images.githubusercontent.com/78280594/120415377-d0deac80-c331-11eb-9808-3f9b15745e10.png)
-
 
