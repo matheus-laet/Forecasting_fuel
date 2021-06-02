@@ -96,9 +96,31 @@ O ARIMA (AutoRegressive Integrated Moving Average), utiliza dados passados para 
 ### _- XGBoost_         
 <img src="https://user-images.githubusercontent.com/78280594/120505833-bc36fe80-c39b-11eb-8b51-1d80d8bfe3ae.png" alt="XGB" width="400"/>
 
+
 O XGBoost é um algoritimo baseado em Gradient boosting que constrói o modelo em etapas, e os generaliza.
 
+
+- _*Resultados*_
+
+ Treino
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/comparacao_grafico_resultados_trainox.png?raw=true" width="1200"/>
+ Test
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/comparacao_grafico_resultadosx.png?raw=true" width="1200"/>
+
+
+
 - _*Análises e Metricas*_ 
+
+
+_Metricas no Teste_     |  _Metricas no Treino_          
+:-------------------------:|:-------------------------:
+ Media do erro: 0.324178    |   Media do erro: 0.034639
+ R2: -3.668369            |    R2: 0.984718
+ 
+
+ #### Residuos 
+ 
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/hist_residuosx.png?raw=true" alt="XGB" width="400"/>
 
 
 
@@ -107,7 +129,30 @@ O XGBoost é um algoritimo baseado em Gradient boosting que constrói o modelo e
 
 O Prophet é um pacote usado pelo Facebook, que implementa algoritimos de previsões de series temporais, feito para detectar automaticamente os padroes sazonais de uma serie.
 
+
 - _*Resultados*_
+
+ Treino
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/previsao_grafica_prophet_trainox.png?raw=true" width="1200"/>
+ Test
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/previsao_grafica_prophetx.png?raw=true" width="1200"/>
+
+
+
+- _*Análises e Metricas*_ 
+
+
+_Metricas no Teste_     |  _Metricas no Treino_          
+:-------------------------:|:-------------------------:
+ Media do erro: 0.1543    |   Media do erro: 0.0442
+ R2: 0.0274            |   R2: 0.978
+ 
+
+ #### Residuos 
+ 
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/hist_residuos_prophetx.png?raw=true" alt="XGB" width="400"/>
+
+
 
 
 
