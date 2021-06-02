@@ -1,4 +1,7 @@
 # Forecast_fuel
+[![Generic badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-laet/)
+
+
 Com a variação excessiva dos preços dos combustíveis, e a surpresa sempre que ia ao posto, decidi fazer um previsor de preço de combustível, para poder me programar para o próximo abastecimento e não tomar um susto e prejuízo na carteira.
 
  ## **Sumario**
