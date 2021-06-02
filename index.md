@@ -3,7 +3,7 @@
 
 # Forecast_fuel
 
-Com a variação excessiva dos preços dos combustíveis, e a surpresa sempre que ia ao posto, decidi fazer um previsor de preço de combustível, para poder me programar para o próximo abastecimento e não tomar um susto e prejuízo na carteira.
+Com a variação excessiva dos preços dos combustíveis e a surpresa sempre que ia ao posto, decidi fazer um previsor de preço de combustível, para poder me programar na próxima vez que for abastecer e não tomar um susto e prejuízo na carteira.
 
  ## **Sumario**
 - [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#objetivo-do-projeto) 
@@ -25,7 +25,7 @@ analise BoxPlot dos valores de venda.
 Podemos identificar poucos valores no estado do Amapa, provavelmente impossibilitando o treinamento adequado do nosso modelo.
 ![image](https://user-images.githubusercontent.com/78280594/120231975-f03de280-c228-11eb-92fd-4d23ceb6b9dc.png)
 
-Durante a analise lembrei da Greve dos caminhoneiros que ocorreu em 2018, paralizando o serviços como fornecimento de combustíveis, distribuição de alimentos e insumos médicos, a greve teve como uma das principais exigencias a redução nos preços do Diesel e demais combustiveis durou da cerca de 10 dias, iniciando dia 21/05 e terminando dia 30/05.
+Durante a análise, lembrai da Greve dos caminhoneiros que ocorreu em 2018, paralisando os serviços como fornecimento de combustíveis, distribuição de alimentos e insumos médicos, a greve teve como uma das principais exigências a redução nos preços do Diesel e demais combustíveis durou da cerca de 10 dias, iniciando dia 21/05 e terminando dia 30/05.
 
 * Aqui vemos a variação do preço de venda do combustivel no estado de Sao Paulo no mesmo periodo da greve.
 ![image](https://user-images.githubusercontent.com/78280594/120232779-a2c27500-c22a-11eb-8cf9-45a19144fae2.png)
@@ -60,9 +60,12 @@ Correlação lag de 1 mês    |  Correlação lag de 2 mês
 
 ## Modelos
 ### metricas
-Durante o desenvolvimento dos modelos, precisamos também fazer o calcular das métricas, que são contas matemáticas para saber o desempenho dos nossos modelos.
-Para esse projeto, escolhi o [Erro Abssoluto Medio](https://en.wikipedia.org/wiki/Mean_absolute_error), e o [Coeficiente de determinação](https://pt.wikipedia.org/wiki/Coeficiente_de_determina%C3%A7%C3%A3o).
-  
+Durante o desenvolvimento dos modelos, precisamos também fazer o cálculo das métricas, que são contas matemáticas para saber o desempenho dos nossos modelos.
+Para esse projeto, escolhi o [Erro Abssoluto Medio](https://en.wikipedia.org/wiki/Mean_absolute_error), e o [Coeficiente de determinação(R2)](https://pt.wikipedia.org/wiki/Coeficiente_de_determina%C3%A7%C3%A3o).
+
+ Para podermos entender melhor o resultado dos nossos modelos e a precisão, temos que analisar os residuos, que é o valor da diferença entre os resultados reais e os resultados previstos. Fazendo o histograma esperamos ver mais resultados em 0.
+ 
+ 
 ### _- Arima_           
 <img src="https://user-images.githubusercontent.com/78280594/120505080-0966a080-c39b-11eb-96f9-418d637a5cd7.png" alt="ARIMA" width="400"/>
 
@@ -71,26 +74,31 @@ O ARIMA (AutoRegressive Integrated Moving Average), utiliza dados passados para 
 - _*Resultados*_
 
  Treino
-<img src="https://user-images.githubusercontent.com/78280594/120535026-e1863580-c3b8-11eb-88c9-8a6dd904ebb4.png" alt="result" width="1000"/>
+<img src="https://user-images.githubusercontent.com/78280594/120535026-e1863580-c3b8-11eb-88c9-8a6dd904ebb4.png" alt="result" width="1200"/>
  Test
-<img src="https://user-images.githubusercontent.com/78280594/120535071-ef3bbb00-c3b8-11eb-8fcd-7ff65f12c38a.png" alt="result" width="1000"/>
+<img src="https://user-images.githubusercontent.com/78280594/120535071-ef3bbb00-c3b8-11eb-8fcd-7ff65f12c38a.png" alt="result" width="1200"/>
 
 
-- _*Metricas*_ 
+- _*Análises e Metricas*_ 
 
 
-_Metricas no Teste_    |  _Metricas no Treino_          
+ _Metricas no Teste_     |  _Metricas no Treino_          
 :-------------------------:|:-------------------------:
  Media do erro: 0.6125    |   Media do erro: 0.0203
- R2: -9.4277              |   R2: 0.9964
+ R2: -9.4277              |    R2: 0.9964
  
+
+ #### Residuos 
+ 
+<img src="https://user-images.githubusercontent.com/78280594/120546748-a25ee100-c3c6-11eb-9a0b-b46945e4a72e.png" alt="XGB" width="400"/>
+
 
 ### _- XGBoost_         
 <img src="https://user-images.githubusercontent.com/78280594/120505833-bc36fe80-c39b-11eb-8b51-1d80d8bfe3ae.png" alt="XGB" width="400"/>
 
 O XGBoost é um algoritimo baseado em Gradient boosting que constrói o modelo em etapas, e os generaliza.
 
-- _*Resultados*_
+- _*Análises e Metricas*_ 
 
 
 
