@@ -59,16 +59,31 @@ Correlação lag de 1 mês    |  Correlação lag de 2 mês
 
 
 ## Modelos
-### _- Arima_
+### _- Arima_           
+<img src="https://user-images.githubusercontent.com/78280594/120505080-0966a080-c39b-11eb-96f9-418d637a5cd7.png" alt="ARIMA" width="400"/>
+
 O ARIMA (AutoRegressive Integrated Moving Average), utiliza dados passados para prever o futuro, usando dois principais recursos: a autocorrelação e médias móveis.
 
+- _*Resultados*_
 
-### _- XGBoost_
+
+
+### _- XGBoost_         
+<img src="https://user-images.githubusercontent.com/78280594/120505833-bc36fe80-c39b-11eb-8b51-1d80d8bfe3ae.png" alt="XGB" width="400"/>
+
 O XGBoost é um algoritimo baseado em Gradient boosting que constrói o modelo em etapas, e os generaliza.
+
+- _*Resultados*_
+
 
 
 ### _- Prophet_
+<img src="https://user-images.githubusercontent.com/78280594/120506219-189a1e00-c39c-11eb-9d81-7ef350fc5783.png" alt="Prophet" width="400"/>
+
 O Prophet é um pacote usado pelo Facebook, que implementa algoritimos de previsões de series temporais, feito para detectar automaticamente os padroes sazonais de uma serie.
+
+- _*Resultados*_
+
 
 
 ### _- CatBoost_
