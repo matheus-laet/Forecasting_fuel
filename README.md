@@ -1,20 +1,14 @@
 # Forecast_fuel
 ### previsor de preço de combustivel
 
-## Objetivo do Projeto
-como objetivo busco mostrar a previsao do preço do combustivel(gasolina, etanol e disel) medio por estado.
+[![Generic badge](https://img.shields.io/static/v1?label=Projeto&message=Version1.0&color=gray&style=for-the-badge&logo=Fuel)](https://matheus-laet.github.io/Forecasting_fuel/)
 
+[![Generic badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-laet/)
 
-## Gráficos da EDA
+![Badge](https://img.shields.io/static/v1?label=Python&message=Version-3.9&color=darkgreen&style=for-the-badge&logo=PYTHON)
 
+![Badge](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-## Correlações identificadas
+![Badge](https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white)
 
-
-## Modelos: prophet e LSTM
-
-
-## Resultados Comparativos
-
-
-## Board de visualizações finais
+![Badge](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
