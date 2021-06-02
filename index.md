@@ -5,7 +5,7 @@
 
 Com a variação excessiva dos preços dos combustíveis e a surpresa sempre que ia ao posto, decidi fazer um previsor de preço de combustível, para poder me programar na próxima vez que for abastecer e não tomar um susto e prejuízo na carteira.
 
- ## **Sumario**
+ <H2> **Sumario** </H2>
 - [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#objetivo-do-projeto) 
 - [Features](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#Features)
 - [EDA](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#gr%C3%A1ficos-da-eda)
@@ -66,12 +66,12 @@ Para esse projeto, escolhi o [Erro Abssoluto Medio](https://en.wikipedia.org/wik
  Para podermos entender melhor o resultado dos nossos modelos e a precisão, temos que analisar os residuos, que é o valor da diferença entre os resultados reais e os resultados previstos. Fazendo o histograma esperamos ver mais resultados em 0.
  
  
-### _- Arima_           
+### _Arima_           
 <img src="https://user-images.githubusercontent.com/78280594/120505080-0966a080-c39b-11eb-96f9-418d637a5cd7.png" alt="ARIMA" width="400"/>
 
 O ARIMA (AutoRegressive Integrated Moving Average), utiliza dados passados para prever o futuro, usando dois principais recursos: a autocorrelação e médias móveis.
 
-- _*Resultados*_
+- _Resultados_
 
  Treino
 <img src="https://user-images.githubusercontent.com/78280594/120535026-e1863580-c3b8-11eb-88c9-8a6dd904ebb4.png" alt="result" width="1200"/>
@@ -88,19 +88,19 @@ O ARIMA (AutoRegressive Integrated Moving Average), utiliza dados passados para 
  R2: -9.4277              |    R2: 0.9964
  
 
- #### Residuos 
+ <H4> Residuos </H4> 
  
 <img src="https://user-images.githubusercontent.com/78280594/120546748-a25ee100-c3c6-11eb-9a0b-b46945e4a72e.png" alt="XGB" width="400"/>
 
 
-### _- XGBoost_         
+### _XGBoost_         
 <img src="https://user-images.githubusercontent.com/78280594/120505833-bc36fe80-c39b-11eb-8b51-1d80d8bfe3ae.png" alt="XGB" width="400"/>
 
 
 O XGBoost é um algoritimo baseado em Gradient boosting que constrói o modelo em etapas, e os generaliza.
 
 
-- _*Resultados*_
+- _Resultados_
 
  Treino
 <img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/comparacao_grafico_resultados_trainox.png?raw=true" width="1200"/>
@@ -118,19 +118,19 @@ _Metricas no Teste_     |  _Metricas no Treino_
  R2: -3.668369            |    R2: 0.984718
  
 
- #### Residuos 
+ <H4> Residuos </H4>
  
 <img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/hist_residuosx.png?raw=true" alt="XGB" width="400"/>
 
 
 
-### _- Prophet_
+### _Prophet_
 <img src="https://user-images.githubusercontent.com/78280594/120506219-189a1e00-c39c-11eb-9d81-7ef350fc5783.png" alt="Prophet" width="400"/>
 
 O Prophet é um pacote usado pelo Facebook, que implementa algoritimos de previsões de series temporais, feito para detectar automaticamente os padroes sazonais de uma serie.
 
 
-- _*Resultados*_
+- _Resultados_
 
  Treino
 <img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/previsao_grafica_prophet_trainox.png?raw=true" width="1200"/>
@@ -148,7 +148,7 @@ _Metricas no Teste_     |  _Metricas no Treino_
  R2: 0.0274            |   R2: 0.978
  
 
- #### Residuos 
+<H4> Residuos </H4> 
  
 <img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/hist_residuos_prophetx.png?raw=true" alt="XGB" width="400"/>
 
