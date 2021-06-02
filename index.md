@@ -2,7 +2,7 @@
 Com a variação excessiva dos preços dos combustíveis, e a surpresa sempre que ia ao posto, decidi fazer um previsor de preço de combustível, para poder me programar para o próximo abastecimento e não tomar um susto e prejuízo na carteira.
 
  ## **Sumario**
-- [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#objetivo-do-projeto)
+- [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#objetivo-do-projeto) 
 - [Features](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#Features)
 - [EDA](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#gr%C3%A1ficos-da-eda)
 - [Colelações](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#correla%C3%A7%C3%B5es-identificadas)
@@ -30,11 +30,11 @@ Durante a analise lembrei da Greve dos caminhoneiros que ocorreu em 2018, parali
 ![image](https://user-images.githubusercontent.com/78280594/120232916-f46aff80-c22a-11eb-8268-22898ad3305f.png)
 
 ## Correlações identificadas
-Gostaria de deixa claro que fiz os teste de correlação, todos no estado de Sao Paulo.
+Gostaria de falar que fiz os teste de correlação, todos no estado de Sao Paulo.
 
 ![image](https://user-images.githubusercontent.com/78280594/120376095-d74d3400-c2f1-11eb-8a76-e9eefbbb90b1.png)
-
-
+![image](https://user-images.githubusercontent.com/78280594/120415292-ae4c9380-c331-11eb-80c5-ccdd0303c492.png)
+![image](https://user-images.githubusercontent.com/78280594/120415232-937a1f00-c331-11eb-9d5a-a8caf36e2808.png)
 
 ## Modelos
 ### _- Arima_
@@ -56,3 +56,18 @@ O Prophet é um pacote usado pelo Facebook, que implementa algoritimos de previs
 
 
 ## Board de visualizações finais
+![GitHub Logo](Forecasting_fuel/imagens/Venda.jpg)
+
+correlacao_dieselx.png
+![image](https://user-images.githubusercontent.com/78280594/120415232-937a1f00-c331-11eb-9d5a-a8caf36e2808.png)
+
+correlacao_etanolx.png
+![image](https://user-images.githubusercontent.com/78280594/120415292-ae4c9380-c331-11eb-80c5-ccdd0303c492.png)
+
+correlacao_gasolina_t-1x.png
+![image](https://user-images.githubusercontent.com/78280594/120415331-be647300-c331-11eb-9c84-2fc83544e721.png)
+
+correlacao_gasolina_t-2x.png
+![image](https://user-images.githubusercontent.com/78280594/120415377-d0deac80-c331-11eb-9808-3f9b15745e10.png)
+
+
