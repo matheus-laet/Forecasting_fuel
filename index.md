@@ -59,6 +59,10 @@ Correlação lag de 1 mês    |  Correlação lag de 2 mês
 
 
 ## Modelos
+### metricas
+Durante o desenvolvimento dos modelos, precisamos também fazer o calcular das métricas, que são contas matemáticas para saber o desempenho dos nossos modelos.
+Para esse projeto, escolhi o [Erro Abssoluto Medio](https://en.wikipedia.org/wiki/Mean_absolute_error), e o [Coeficiente de determinação](https://pt.wikipedia.org/wiki/Coeficiente_de_determina%C3%A7%C3%A3o).
+  
 ### _- Arima_           
 <img src="https://user-images.githubusercontent.com/78280594/120505080-0966a080-c39b-11eb-96f9-418d637a5cd7.png" alt="ARIMA" width="400"/>
 
@@ -66,7 +70,20 @@ O ARIMA (AutoRegressive Integrated Moving Average), utiliza dados passados para 
 
 - _*Resultados*_
 
+ Treino
+<img src="https://user-images.githubusercontent.com/78280594/120535026-e1863580-c3b8-11eb-88c9-8a6dd904ebb4.png" alt="result" width="1000"/>
+ Test
+<img src="https://user-images.githubusercontent.com/78280594/120535071-ef3bbb00-c3b8-11eb-8fcd-7ff65f12c38a.png" alt="result" width="1000"/>
 
+
+- _*Metricas*_ 
+
+
+_Metricas no Teste_    |  _Metricas no Treino_          
+:-------------------------:|:-------------------------:
+ Media do erro: 0.6125    |   Media do erro: 0.0203
+ R2: -9.4277              |   R2: 0.9964
+ 
 
 ### _- XGBoost_         
 <img src="https://user-images.githubusercontent.com/78280594/120505833-bc36fe80-c39b-11eb-8b51-1d80d8bfe3ae.png" alt="XGB" width="400"/>
