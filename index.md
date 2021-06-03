@@ -6,11 +6,11 @@
 Com a variação excessiva dos preços dos combustíveis e a surpresa sempre que ia ao posto, decidi fazer um previsor de preço de combustível, para poder me programar na próxima vez que for abastecer e não tomar um susto e prejuízo na carteira.
 
  <H2> **Sumario** </H2>
-- [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#objetivo-do-projeto) 
-- [Features](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#Features)
+- [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/#objetivo-do-projeto) 
+- [Features](https://github.com/matheus-laet/Forecasting_fuel/#Features)
 - [EDA](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#gr%C3%A1ficos-da-eda)
 - [Colelações](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#correla%C3%A7%C3%B5es-identificadas)
-- [Modelos](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#modelos)
+- [Modelos](https://github.com/matheus-laet/Forecasting_fuel/#modelos)
 
 
 ## Objetivo do Projeto
@@ -157,6 +157,8 @@ _Metricas no Teste_     |  _Metricas no Treino_
 
 
 ### _- CatBoost_
+<img src="https://avatars.mds.yandex.net/get-yablogs/51163/file_1500371746775/orig" alt="XGB" width="400"/>
+
 
 
 ## Resultados Comparativos
