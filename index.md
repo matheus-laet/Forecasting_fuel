@@ -7,18 +7,16 @@ Com a variação excessiva dos preços dos combustíveis e a surpresa sempre que
 
  <H2> Sumario </H2>
  
-- [Managed Disks](#modelos)
+- [Objetivo](#objetivo-do-projeto)
+
+- [Features](#Features)
+
+- [EDA](#gr%C3%A1ficos-da-eda)
+
+- [Colelações](#correla%C3%A7%C3%B5es-identificadas)
+
+- [Modelos](#modelos)
  
-- [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/#objetivo-do-projeto) 
-
-- [Features](https://github.com/matheus-laet/Forecasting_fuel/#Features)
-
-- [EDA](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#gr%C3%A1ficos-da-eda)
-
-- [Colelações](https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/index.md#correla%C3%A7%C3%B5es-identificadas)
-
-- [Modelos](https://github.com/matheus-laet/Forecasting_fuel/#modelos)
-
 
 ## Objetivo do Projeto
 como objetivo busco mostrar a previsao do preço do combustivel(gasolina, etanol e disel) medio por estado.
