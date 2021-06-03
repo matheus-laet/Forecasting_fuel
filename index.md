@@ -7,6 +7,8 @@ Com a variação excessiva dos preços dos combustíveis e a surpresa sempre que
 
  <H2> Sumario </H2>
  
+- [Managed Disks](#modelos)
+ 
 - [Objetivo](https://github.com/matheus-laet/Forecasting_fuel/#objetivo-do-projeto) 
 
 - [Features](https://github.com/matheus-laet/Forecasting_fuel/#Features)
