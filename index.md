@@ -9,7 +9,7 @@ Com a variação excessiva dos preços dos combustíveis e a surpresa sempre que
  
 - [Objetivo](#objetivo-do-projeto)
 
-- [Features](#Features)
+- [Features](#features)
 
 - [EDA](#gr%C3%A1ficos-da-eda)
 
