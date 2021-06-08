@@ -23,7 +23,7 @@ como objetivo busco mostrar a previsao do preço do combustivel(gasolina, etanol
 
 ## Features
 
-Neste projeto retiramos os dados históricos das bases de dados dos sites,  [Gov- Agência Nacional de Petróleo](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos), que foi retirado dos preços de compra e venda dos combustíveis e o [IndexMundi](https://www.indexmundi.com/),  onde foi retirado outras variaveis, como preço da bolsa, preço do petróleo bruto, etanol futuro e preço bruto do diesel. 
+Neste projeto retiramos os dados históricos das bases de dados dos sites,  [Gov- Agência Nacional de Petróleo](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos), que foi retirado dos preços de compra e venda dos combustíveis e o [IndexMundi](https://www.indexmundi.com/),  onde foi retirado outras variaveis, como preço da bolsa, etanol futuro e preço bruto do diesel. 
 
 ## Gráficos da EDA
 analise BoxPlot dos valores de venda.
@@ -164,6 +164,29 @@ _Metricas no Teste_     |  _Metricas no Treino_
 ### _- CatBoost_
 <img src="https://avatars.mds.yandex.net/get-yablogs/51163/file_1500371746775/orig" alt="XGB" width="400"/>
 
+O CatBoost é um algoritimo baseado em Gradient boosting que constrói o modelo em etapas assim como o XGBoost, o diferencial dele é que ele trata as features categoricas sozinho.
+
+- _Resultados_
+
+ Treino
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/previsao_grafica_prophet_trainox.png?raw=true" width="1200"/>
+ Test
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/previsao_grafica_prophetx.png?raw=true" width="1200"/>
+
+
+
+- _*Análises e Metricas*_ 
+
+
+_Metricas no Teste_     |  _Metricas no Treino_          
+:-------------------------:|:-------------------------:
+ Media do erro: 0.3338    |   Media do erro: 0.0971
+ R2: -1.3391            |   R2: 0.0971
+ 
+
+<H4> Residuos </H4> 
+ 
+<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/hist_residuos_prophetx.png?raw=true" alt="XGB" width="400"/>
 
 
 ## Resultados Comparativos
