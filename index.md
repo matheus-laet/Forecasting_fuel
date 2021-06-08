@@ -64,6 +64,7 @@ Correlação lag de 1 mês    |  Correlação lag de 2 mês
 
 
 ## Modelos
+:warning: Todos os resultados mostrados sao do estado de São Paulo. :warning:
 ### metricas
 Durante o desenvolvimento dos modelos, precisamos também fazer o cálculo das métricas, que são contas matemáticas para saber o desempenho dos nossos modelos.
 Para esse projeto, escolhi o [Erro Abssoluto Medio](https://en.wikipedia.org/wiki/Mean_absolute_error), e o [Coeficiente de determinação(R2)](https://pt.wikipedia.org/wiki/Coeficiente_de_determina%C3%A7%C3%A3o).
@@ -165,13 +166,16 @@ _Metricas no Teste_     |  _Metricas no Treino_
 <img src="https://avatars.mds.yandex.net/get-yablogs/51163/file_1500371746775/orig" alt="XGB" width="400"/>
 
 O CatBoost é um algoritimo baseado em Gradient boosting que constrói o modelo em etapas assim como o XGBoost, o diferencial dele é que ele trata as features categoricas sozinho.
+Tendo isso como conhecimento, decide colocar o estado como uma variável, para poder dar mais dados ao modelo e treinalo com mais eficiência.
 
 - _Resultados_
 
+:warning: Os resultados mostrados tambem é do estado de São Paulo. :warning:
+
  Treino
-<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/previsao_grafica_prophet_trainox.png?raw=true" width="1200"/>
+<img src="https://user-images.githubusercontent.com/78280594/121249118-99fd1f00-c87a-11eb-8ef4-753500211d65.png" width="1200"/>
  Test
-<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/previsao_grafica_prophetx.png?raw=true" width="1200"/>
+<img src="https://user-images.githubusercontent.com/78280594/121249150-a2edf080-c87a-11eb-8f6f-b1de2df1e89c.png" width="1200"/>
 
 
 
@@ -186,10 +190,9 @@ _Metricas no Teste_     |  _Metricas no Treino_
 
 <H4> Residuos </H4> 
  
-<img src="https://github.com/matheus-laet/Forecasting_fuel/blob/gh-pages/imagens/hist_residuos_prophetx.png?raw=true" alt="XGB" width="400"/>
+<img src="https://user-images.githubusercontent.com/78280594/121249250-c153ec00-c87a-11eb-9e01-e3b19d43aafd.png" alt="XGB" width="400"/>
 
 
-## Resultados Comparativos
 
 
 ## Board de visualizações finais
