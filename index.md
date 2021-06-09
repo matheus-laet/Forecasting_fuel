@@ -43,8 +43,8 @@ Durante a análise, lembrai da Greve dos caminhoneiros que ocorreu em 2018, para
 
 A correlação é, a dependência que as variáveis têm entre si, quando as dependências não são obvias utilizamos os métodos de detecção como os índices de [Pearson](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_de_Pearson), [Spearman](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_de_postos_de_Spearman) e [Kendall](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_tau_de_Kendall#:~:text=Em%20estat%C3%ADstica%2C%20o%20coeficiente%20de,postos%20entre%20duas%20quantidades%20medidas.).
 
-correlação das variaveis da Gasolina | correlação das variaveis do  Etanol| correlação das variaveis do   Diesel
-:-------------------------:|:-------------------------:|:-------------------------:
+correlação das variaveis da Gasolina |  correlação das variaveis do  Etanol    |    correlação das variaveis do   Diesel
+:-----------------------------------:|:-------------------------------------:|:------------------------------------------:
 ![image](https://user-images.githubusercontent.com/78280594/120418821-a09a0c80-c337-11eb-8df3-07b8e9f9a027.png)  |  ![image](https://user-images.githubusercontent.com/78280594/120418855-ae4f9200-c337-11eb-9212-69fae0965661.png) |  ![image](https://user-images.githubusercontent.com/78280594/120418917-c6271600-c337-11eb-824f-a8750e9b5e88.png)
 
 
