@@ -39,7 +39,7 @@ Durante a análise, lembrai da Greve dos caminhoneiros que ocorreu em 2018, para
 ![image](https://user-images.githubusercontent.com/78280594/120232916-f46aff80-c22a-11eb-8268-22898ad3305f.png)
 
 ## Correlações identificadas
-:warning: Todos os testes de correlação foram feitos no estado de São Paulo. :warning:
+⚠️ Todos os testes de correlação foram feitos no estado de São Paulo. ⚠️
 
 A correlação é, a dependência que as variáveis têm entre si, quando as dependências não são obvias utilizamos os métodos de detecção como os índices de [Pearson](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_de_Pearson), [Spearman](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_de_postos_de_Spearman) e [Kendall](https://pt.wikipedia.org/wiki/Coeficiente_de_correla%C3%A7%C3%A3o_tau_de_Kendall#:~:text=Em%20estat%C3%ADstica%2C%20o%20coeficiente%20de,postos%20entre%20duas%20quantidades%20medidas.).
 
@@ -64,7 +64,7 @@ Correlação lag de 1 mês    |  Correlação lag de 2 mês
 
 
 ## Modelos
-:warning: Todos os resultados mostrados sao do estado de São Paulo. :warning:
+⚠️ Todos os resultados mostrados sao do estado de São Paulo. ⚠️
 ### metricas
 Durante o desenvolvimento dos modelos, precisamos também fazer o cálculo das métricas, que são contas matemáticas para saber o desempenho dos nossos modelos.
 Para esse projeto, escolhi o [Erro Abssoluto Medio](https://en.wikipedia.org/wiki/Mean_absolute_error), e o [Coeficiente de determinação(R2)](https://pt.wikipedia.org/wiki/Coeficiente_de_determina%C3%A7%C3%A3o).
@@ -170,7 +170,7 @@ Tendo isso como conhecimento, decide colocar o estado como uma variável, para p
 
 - _Resultados_
 
-:warning: Os resultados mostrados tambem é do estado de São Paulo. :warning:
+⚠️ Os resultados mostrados tambem é do estado de São Paulo. ⚠️
 
  Treino
 <img src="https://user-images.githubusercontent.com/78280594/121249118-99fd1f00-c87a-11eb-8ef4-753500211d65.png" width="1200"/>
