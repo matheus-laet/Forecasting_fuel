@@ -19,7 +19,7 @@ Com a variação excessiva dos preços dos combustíveis e a surpresa sempre que
  
 
 ## Objetivo do Projeto
-como objetivo busco mostrar a previsao do preço do combustivel(gasolina, etanol e disel) medio por estado.
+como objetivo busco mostrar a previsao do preço medio do combustivel(gasolina, etanol e disel) por estado.
 
 ## Features
 
